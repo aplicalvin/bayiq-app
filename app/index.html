@@ -20,43 +20,83 @@
             <!-- Sidebar -->
             <div
                 id="sidebar"
-                class="fixed md:static top-0 left-0 h-full bg-primary-200 w-32 px-6 py-4 transform -translate-x-full md:translate-x-0 transition-transform duration-300"
+                class="fixed md:static flex flex-col top-0 left-0 h-full bg-primary-200 w-32 px-6 py-4 transform -translate-x-full md:translate-x-0 transition-transform duration-300 justify-between"
             >
-                <a
-                    class="flex flex-col gap-1 items-center h-fit"
-                    href="./index.html"
-                >
-                    <img src="./../assets/favicon.png" class="w-32" alt="" />
-                    <p class="text-primary-600 text-xl font-semibold">BayiQ</p>
-                </a>
-                <hr class="border border-primary-500 my-4" />
-                <!-- Menu -->
-                <div class="flex flex-col gap-4">
-                    <!-- Menu Items -->
+                <!-- Atasan -->
+                <div>
                     <a
-                        href="#"
-                        class="flex flex-col gap-1 items-center object-center justify-center text-primary-600 hover:text-primary-800"
+                        class="flex flex-col gap-1 items-center h-fit"
+                        href="./index.html"
                     >
-                        <svg
-                            xmlns="http://www.w3.org/2000/svg"
-                            viewBox="0 0 20 20"
-                            fill="currentColor"
-                            class="size-8 w-8 h-8"
-                        >
-                            <path
-                                fill-rule="evenodd"
-                                d="M9.293 2.293a1 1 0 0 1 1.414 0l7 7A1 1 0 0 1 17 11h-1v6a1 1 0 0 1-1 1h-2a1 1 0 0 1-1-1v-3a1 1 0 0 0-1-1H9a1 1 0 0 0-1 1v3a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1v-6H3a1 1 0 0 1-.707-1.707l7-7Z"
-                                clip-rule="evenodd"
-                            />
-                        </svg>
-                        <p
-                            class="text-neutral-600 hover:text-neutral-800 text-md"
-                        >
-                            Home
+                        <img
+                            src="./../assets/favicon.png"
+                            class="w-32"
+                            alt=""
+                        />
+                        <p class="text-primary-600 text-xl font-semibold">
+                            BayiQ
                         </p>
                     </a>
-                    <!-- Add more menu items as needed -->
+                    <hr class="border border-primary-500 my-4" />
+                    <!-- Menu -->
+                    <div class="flex flex-col gap-4">
+                        <!-- Menu Items -->
+
+                        <!-- Main Dashboard -->
+                        <a
+                            href="./index.html"
+                            class="flex flex-col gap-1 items-center object-center justify-center text-primary-600 hover:text-primary-800"
+                        >
+                            <svg
+                                xmlns="http://www.w3.org/2000/svg"
+                                viewBox="0 0 20 20"
+                                fill="currentColor"
+                                class="size-8 w-8 h-8"
+                            >
+                                <path
+                                    fill-rule="evenodd"
+                                    d="M9.293 2.293a1 1 0 0 1 1.414 0l7 7A1 1 0 0 1 17 11h-1v6a1 1 0 0 1-1 1h-2a1 1 0 0 1-1-1v-3a1 1 0 0 0-1-1H9a1 1 0 0 0-1 1v3a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1v-6H3a1 1 0 0 1-.707-1.707l7-7Z"
+                                    clip-rule="evenodd"
+                                />
+                            </svg>
+                            <p
+                                class="text-neutral-600 hover:text-neutral-800 text-md"
+                            >
+                                Home
+                            </p>
+                        </a>
+                        <!-- Profil -->
+                        <a
+                            href="./profile.html"
+                            class="flex flex-col gap-1 items-center object-center justify-center text-primary-600 hover:text-primary-800"
+                        >
+                            <svg
+                                xmlns="http://www.w3.org/2000/svg"
+                                viewBox="0 0 20 20"
+                                fill="currentColor"
+                                class="size-8"
+                            >
+                                <path
+                                    fill-rule="evenodd"
+                                    d="M18 10a8 8 0 1 1-16 0 8 8 0 0 1 16 0Zm-5.5-2.5a2.5 2.5 0 1 1-5 0 2.5 2.5 0 0 1 5 0ZM10 12a5.99 5.99 0 0 0-4.793 2.39A6.483 6.483 0 0 0 10 16.5a6.483 6.483 0 0 0 4.793-2.11A5.99 5.99 0 0 0 10 12Z"
+                                    clip-rule="evenodd"
+                                />
+                            </svg>
+                            <p
+                                class="text-neutral-600 hover:text-neutral-800 text-md"
+                            >
+                                Profil
+                            </p>
+                        </a>
+                        <!-- Add more menu items as needed -->
+                    </div>
                 </div>
+                <!-- Atasan -->
+                <!-- bawahan -->
+                <a
+                    class="bg-danger-main rounded-lg hover:bg-danger-hover cursor-pointer text-center px-3 py-2 text-white"
+                    >Keluar</a
+                >
             </div>
 
             <!-- Hamburger Menu -->

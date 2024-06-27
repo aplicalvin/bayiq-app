@@ -30,6 +30,12 @@ module.exports = {
                 950: "#0c0a09",
             },
             white: "#ffffff",
+            danger: {
+                active: "#ff2323",
+                main: "#ff0606",
+                hover: "#920a0a",
+                pressed: "#500000",
+            },
         },
         extend: {},
     },
