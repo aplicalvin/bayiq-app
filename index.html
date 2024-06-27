@@ -16,6 +16,28 @@
         <link href="./src/suplement.css" rel="stylesheet" />
     </head>
     <body>
-        <h1>Landing Pages</h1>
+        <div class="bg-neutral-50">
+            <?php include('components/navbar.php'); ?>
+            <!-- Navbar -->
+            <nav
+                class="flex justify-between bg-primary-200 px-12 py-4 items-center"
+            >
+                <a href="./index.html">
+                    <img src="./assets/logo.png" class="w-32" alt="" />
+                </a>
+                <a
+                    href="/login"
+                    class="bg-primary-500 h-fit w-fit px-6 py-2 rounded-lg text-neutral-50 font-semibold hover:bg-primary-700"
+                    >Login</a
+                >
+            </nav>
+            <!-- Ini bagian main -->
+            <main class="max-w-7xl mx-auto">
+                <div class="border">
+                    <h1 class="text-2xl font-bold">Landing Pages</h1>
+                    <a href="./app/index.html ">Go to App</a>
+                </div>
+            </main>
+        </div>
     </body>
 </html>

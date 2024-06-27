@@ -13,7 +13,362 @@
         <link href="./../src/output.css" rel="stylesheet" />
         <link href="./../src/suplement.css" rel="stylesheet" />
     </head>
-    <body>
-        <h1>Hello, World!</h1>
+    <body class="bg-primary-600">
+        <div class="flex h-screen gap-0 max-w-screen-2xl mx-auto">
+            <!-- Sidebar -->
+            <div
+                class="m-0 flex flex-col gap-4 h-full bg-primary-200 w-32 px-6 py-4"
+            >
+                <a
+                    class="flex flex-col gap-1 items-center h-fit"
+                    href="./index.html"
+                >
+                    <img src="./../assets/favicon.png" class="w-32" alt="" />
+                    <p class="text-primary-600 text-xl font-semibold">BayiQ</p>
+                </a>
+                <hr class="border border-primary-500" />
+                <!-- Menu -->
+                <div class="flex flex-col gap-4">
+                    <!-- Home -->
+                    <a
+                        href="#"
+                        class="flex flex-col gap-1 items-center object-center justify-center text-primary-600 hover:text-primary-800"
+                    >
+                        <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            viewBox="0 0 20 20"
+                            fill="currentColor"
+                            class="size-8"
+                        >
+                            <path
+                                fill-rule="evenodd"
+                                d="M9.293 2.293a1 1 0 0 1 1.414 0l7 7A1 1 0 0 1 17 11h-1v6a1 1 0 0 1-1 1h-2a1 1 0 0 1-1-1v-3a1 1 0 0 0-1-1H9a1 1 0 0 0-1 1v3a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1v-6H3a1 1 0 0 1-.707-1.707l7-7Z"
+                                clip-rule="evenodd"
+                            />
+                        </svg>
+
+                        <p
+                            class="text-neutral-600 hover:text-neutral-800 text-md"
+                        >
+                            Home
+                        </p>
+                    </a>
+                    <!-- Home -->
+                    <a
+                        href="#"
+                        class="flex flex-col gap-1 items-center object-center justify-center text-primary-600 hover:text-primary-800"
+                    >
+                        <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            viewBox="0 0 20 20"
+                            fill="currentColor"
+                            class="size-8"
+                        >
+                            <path
+                                fill-rule="evenodd"
+                                d="M9.293 2.293a1 1 0 0 1 1.414 0l7 7A1 1 0 0 1 17 11h-1v6a1 1 0 0 1-1 1h-2a1 1 0 0 1-1-1v-3a1 1 0 0 0-1-1H9a1 1 0 0 0-1 1v3a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1v-6H3a1 1 0 0 1-.707-1.707l7-7Z"
+                                clip-rule="evenodd"
+                            />
+                        </svg>
+
+                        <p
+                            class="text-neutral-600 hover:text-neutral-800 text-md"
+                        >
+                            Home
+                        </p>
+                    </a>
+                    <!-- Home -->
+                    <a
+                        href="#"
+                        class="flex flex-col gap-1 items-center object-center justify-center text-primary-600 hover:text-primary-800"
+                    >
+                        <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            viewBox="0 0 20 20"
+                            fill="currentColor"
+                            class="size-8"
+                        >
+                            <path
+                                fill-rule="evenodd"
+                                d="M9.293 2.293a1 1 0 0 1 1.414 0l7 7A1 1 0 0 1 17 11h-1v6a1 1 0 0 1-1 1h-2a1 1 0 0 1-1-1v-3a1 1 0 0 0-1-1H9a1 1 0 0 0-1 1v3a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1v-6H3a1 1 0 0 1-.707-1.707l7-7Z"
+                                clip-rule="evenodd"
+                            />
+                        </svg>
+
+                        <p
+                            class="text-neutral-600 hover:text-neutral-800 text-md"
+                        >
+                            Home
+                        </p>
+                    </a>
+                    <!-- Home -->
+                    <a
+                        href="#"
+                        class="flex flex-col gap-1 items-center object-center justify-center text-primary-600 hover:text-primary-800"
+                    >
+                        <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            viewBox="0 0 20 20"
+                            fill="currentColor"
+                            class="size-8"
+                        >
+                            <path
+                                fill-rule="evenodd"
+                                d="M9.293 2.293a1 1 0 0 1 1.414 0l7 7A1 1 0 0 1 17 11h-1v6a1 1 0 0 1-1 1h-2a1 1 0 0 1-1-1v-3a1 1 0 0 0-1-1H9a1 1 0 0 0-1 1v3a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1v-6H3a1 1 0 0 1-.707-1.707l7-7Z"
+                                clip-rule="evenodd"
+                            />
+                        </svg>
+
+                        <p
+                            class="text-neutral-600 hover:text-neutral-800 text-md"
+                        >
+                            Home
+                        </p>
+                    </a>
+                </div>
+            </div>
+            <main
+                class="flex flex-col gap-4 mx-auto bg-neutral-100 w-full p-8 overflow-y-auto"
+            >
+                <!-- greetings -->
+                <div class="bg-white px-6 py-4 rounded-xl">
+                    <div class="grid gap-1 border-neutral-400 py-3">
+                        <h1 class="text-lg font-thin text-neutral-600">
+                            Selamat Datang,
+                        </h1>
+                        <h1 class="text-2xl font-bold text-neutral-800">
+                            Reno Aderelyan
+                        </h1>
+                    </div>
+                </div>
+                <!-- LIst Menu  -->
+                <div class="flex flex-col gap-4 bg-white px-6 py-4 rounded-xl">
+                    <h1 class="text-lg font-semibold text-neutral-600">Menu</h1>
+                    <!-- Menu disini -->
+                    <div class="grid grid-cols-6 gap-4 w-fit">
+                        <!-- Home -->
+                        <a
+                            href="#"
+                            class="flex flex-col gap-1 items-center object-center justify-center text-primary-600 hover:text-primary-800 size-32 object-cover"
+                        >
+                            <div class="w-32 h-24 overflow-hidden">
+                                <img
+                                    src="./../assets/image/image1.jpg"
+                                    class="w-32 h-24 object-cover object-center transition-transform hover:scale-125"
+                                    alt=""
+                                />
+                            </div>
+
+                            <p
+                                class="text-neutral-600 hover:text-neutral-800 text-md"
+                            >
+                                Home
+                            </p>
+                        </a>
+                        <!-- Home -->
+                        <a
+                            href="#"
+                            class="flex flex-col gap-1 items-center object-center justify-center text-primary-600 hover:text-primary-800 size-32 object-cover"
+                        >
+                            <div class="w-32 h-24 overflow-hidden">
+                                <img
+                                    src="./../assets/image/image1.jpg"
+                                    class="w-32 h-24 object-cover object-center transition-transform hover:scale-125"
+                                    alt=""
+                                />
+                            </div>
+
+                            <p
+                                class="text-neutral-600 hover:text-neutral-800 text-md"
+                            >
+                                Home
+                            </p>
+                        </a>
+                        <!-- Home -->
+                        <a
+                            href="#"
+                            class="flex flex-col gap-1 items-center object-center justify-center text-primary-600 hover:text-primary-800 size-32 object-cover"
+                        >
+                            <div class="w-32 h-24 overflow-hidden">
+                                <img
+                                    src="./../assets/image/image1.jpg"
+                                    class="w-32 h-24 object-cover object-center transition-transform hover:scale-125"
+                                    alt=""
+                                />
+                            </div>
+
+                            <p
+                                class="text-neutral-600 hover:text-neutral-800 text-md"
+                            >
+                                Home
+                            </p>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- ARTIKEL -->
+                <div class="flex flex-col gap-4 bg-white px-6 py-4 rounded-xl">
+                    <h1 class="text-lg font-semibold text-neutral-600">
+                        Artikel
+                    </h1>
+                    <div class="grid grid-flow-col gap-4 pb-4 overflow-x-auto">
+                        <a href="#" class="flex flex-col gap-2 w-64">
+                            <div class="overflow-hidden">
+                                <img
+                                    src="./../assets/image/image1.jpg"
+                                    class="w-64 aspect-video object-cover object-center transition-transform hover:scale-125"
+                                    alt=""
+                                />
+                            </div>
+                            <h1 class="font-bold text-xl line-clamp-2 w-full">
+                                Lorem ipsum dolor sit amet consectetur,
+                                adipisicing elit. Repellat, excepturi!
+                            </h1>
+                            <p class="font-thin text-sm line-clamp-3 w-full">
+                                Lorem ipsum dolor sit amet consectetur
+                                adipisicing elit. Ipsam numquam repellat
+                                obcaecati, dignissimos maxime necessitatibus,
+                            </p>
+                        </a>
+                        <a href="#" class="flex flex-col gap-2 w-64">
+                            <div class="overflow-hidden">
+                                <img
+                                    src="./../assets/image/image1.jpg"
+                                    class="w-64 aspect-video object-cover object-center transition-transform hover:scale-125"
+                                    alt=""
+                                />
+                            </div>
+                            <h1 class="font-bold text-xl line-clamp-2 w-full">
+                                Lorem ipsum dolor sit amet consectetur,
+                                adipisicing elit. Repellat, excepturi!
+                            </h1>
+                            <p class="font-thin text-sm line-clamp-3 w-full">
+                                Lorem ipsum dolor sit amet consectetur
+                                adipisicing elit. Ipsam numquam repellat
+                                obcaecati, dignissimos maxime necessitatibus,
+                            </p>
+                        </a>
+                        <a href="#" class="flex flex-col gap-2 w-64">
+                            <div class="overflow-hidden">
+                                <img
+                                    src="./../assets/image/image1.jpg"
+                                    class="w-64 aspect-video object-cover object-center transition-transform hover:scale-125"
+                                    alt=""
+                                />
+                            </div>
+                            <h1 class="font-bold text-xl line-clamp-2 w-full">
+                                Lorem ipsum dolor sit amet consectetur,
+                                adipisicing elit. Repellat, excepturi!
+                            </h1>
+                            <p class="font-thin text-sm line-clamp-3 w-full">
+                                Lorem ipsum dolor sit amet consectetur
+                                adipisicing elit. Ipsam numquam repellat
+                                obcaecati, dignissimos maxime necessitatibus,
+                            </p>
+                        </a>
+                        <a href="#" class="flex flex-col gap-2 w-64">
+                            <div class="overflow-hidden">
+                                <img
+                                    src="./../assets/image/image1.jpg"
+                                    class="w-64 aspect-video object-cover object-center transition-transform hover:scale-125"
+                                    alt=""
+                                />
+                            </div>
+                            <h1 class="font-bold text-xl line-clamp-2 w-full">
+                                Lorem ipsum dolor sit amet consectetur,
+                                adipisicing elit. Repellat, excepturi!
+                            </h1>
+                            <p class="font-thin text-sm line-clamp-3 w-full">
+                                Lorem ipsum dolor sit amet consectetur
+                                adipisicing elit. Ipsam numquam repellat
+                                obcaecati, dignissimos maxime necessitatibus,
+                            </p>
+                        </a>
+                        <a href="#" class="flex flex-col gap-2 w-64">
+                            <div class="overflow-hidden">
+                                <img
+                                    src="./../assets/image/image1.jpg"
+                                    class="w-64 aspect-video object-cover object-center transition-transform hover:scale-125"
+                                    alt=""
+                                />
+                            </div>
+                            <h1 class="font-bold text-xl line-clamp-2 w-full">
+                                Lorem ipsum dolor sit amet consectetur,
+                                adipisicing elit. Repellat, excepturi!
+                            </h1>
+                            <p class="font-thin text-sm line-clamp-3 w-full">
+                                Lorem ipsum dolor sit amet consectetur
+                                adipisicing elit. Ipsam numquam repellat
+                                obcaecati, dignissimos maxime necessitatibus,
+                            </p>
+                        </a>
+                        <a href="#" class="flex flex-col gap-2 w-64">
+                            <div class="overflow-hidden">
+                                <img
+                                    src="./../assets/image/image1.jpg"
+                                    class="w-64 aspect-video object-cover object-center transition-transform hover:scale-125"
+                                    alt=""
+                                />
+                            </div>
+                            <h1 class="font-bold text-xl line-clamp-2 w-full">
+                                Lorem ipsum dolor sit amet consectetur,
+                                adipisicing elit. Repellat, excepturi!
+                            </h1>
+                            <p class="font-thin text-sm line-clamp-3 w-full">
+                                Lorem ipsum dolor sit amet consectetur
+                                adipisicing elit. Ipsam numquam repellat
+                                obcaecati, dignissimos maxime necessitatibus,
+                            </p>
+                        </a>
+                        <a href="#" class="flex flex-col gap-2 w-64">
+                            <div class="overflow-hidden">
+                                <img
+                                    src="./../assets/image/image1.jpg"
+                                    class="w-64 aspect-video object-cover object-center transition-transform hover:scale-125"
+                                    alt=""
+                                />
+                            </div>
+                            <h1 class="font-bold text-xl line-clamp-2 w-full">
+                                Lorem ipsum dolor sit amet consectetur,
+                                adipisicing elit. Repellat, excepturi!
+                            </h1>
+                            <p class="font-thin text-sm line-clamp-3 w-full">
+                                Lorem ipsum dolor sit amet consectetur
+                                adipisicing elit. Ipsam numquam repellat
+                                obcaecati, dignissimos maxime necessitatibus,
+                            </p>
+                        </a>
+                    </div>
+                </div>
+                <!-- Jadwal Terdekat  -->
+                <div class="flex flex-col gap-4 bg-white px-6 py-4 rounded-xl">
+                    <h1 class="text-lg font-semibold text-neutral-600">
+                        Jadwal Terdekat
+                    </h1>
+                    <!-- Menu disini -->
+                    <div class="grid grid-cols-6 gap-4 w-fit">
+                        <!-- Home -->
+                        <a
+                            href="#"
+                            class="flex flex-col gap-1 items-center object-center justify-center text-primary-600 hover:text-primary-800 size-32 object-cover"
+                        >
+                            <div class="w-32 h-24 overflow-hidden">
+                                <img
+                                    src="./../assets/image/image1.jpg"
+                                    class="w-32 h-24 object-cover object-center transition-transform hover:scale-125"
+                                    alt=""
+                                />
+                            </div>
+
+                            <p
+                                class="text-neutral-600 hover:text-neutral-800 text-md"
+                            >
+                                Home
+                            </p>
+                        </a>
+                    </div>
+                </div>
+            </main>
+        </div>
     </body>
 </html>
