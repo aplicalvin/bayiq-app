@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>BayiQ - Karena punya anak itu perlu persiapan</title>
+        <link
+            rel="shortcut icon"
+            href="./../assets/favicon.png"
+            type="image/x-icon"
+        />
+        <!-- css -->
+        <link href="./../src/output.css" rel="stylesheet" />
+        <link href="./../src/suplement.css" rel="stylesheet" />
+    </head>
+    <body class="bg-primary-600">
+        <div
+            class="flex flex-col md:flex-row h-screen gap-0 max-w-screen-2xl mx-auto"
+        >
+            <!-- Sidebar -->
+            <div
+                id="sidebar"
+                class="fixed md:static flex flex-col top-0 left-0 h-full bg-primary-200 w-32 px-6 py-4 transform -translate-x-full md:translate-x-0 transition-transform duration-300 justify-between"
+            >
+                <!-- Atasan -->
+                <div>
+                    <a
+                        class="flex flex-col gap-1 items-center h-fit"
+                        href="./index.html"
+                    >
+                        <img
+                            src="./../assets/favicon.png"
+                            class="w-32"
+                            alt=""
+                        />
+                        <p class="text-primary-600 text-xl font-semibold">
+                            BayiQ
+                        </p>
+                    </a>
+                    <hr class="border border-primary-500 my-4" />
+                    <!-- Menu -->
+                    <div class="flex flex-col gap-4">
+                        <!-- Menu Items -->
+
+                        <!-- Main Dashboard -->
+                        <a
+                            href="./index.html"
+                            class="flex flex-col gap-1 items-center object-center justify-center text-primary-600 hover:text-primary-800"
+                        >
+                            <svg
+                                xmlns="http://www.w3.org/2000/svg"
+                                viewBox="0 0 20 20"
+                                fill="currentColor"
+                                class="size-8 w-8 h-8"
+                            >
+                                <path
+                                    fill-rule="evenodd"
+                                    d="M9.293 2.293a1 1 0 0 1 1.414 0l7 7A1 1 0 0 1 17 11h-1v6a1 1 0 0 1-1 1h-2a1 1 0 0 1-1-1v-3a1 1 0 0 0-1-1H9a1 1 0 0 0-1 1v3a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1v-6H3a1 1 0 0 1-.707-1.707l7-7Z"
+                                    clip-rule="evenodd"
+                                />
+                            </svg>
+                            <p
+                                class="text-neutral-600 hover:text-neutral-800 text-md"
+                            >
+                                Home
+                            </p>
+                        </a>
+                        <!-- Profil -->
+                        <a
+                            href="./profile.html"
+                            class="flex flex-col gap-1 items-center object-center justify-center text-primary-600 hover:text-primary-800"
+                        >
+                            <svg
+                                xmlns="http://www.w3.org/2000/svg"
+                                viewBox="0 0 20 20"
+                                fill="currentColor"
+                                class="size-8"
+                            >
+                                <path
+                                    fill-rule="evenodd"
+                                    d="M18 10a8 8 0 1 1-16 0 8 8 0 0 1 16 0Zm-5.5-2.5a2.5 2.5 0 1 1-5 0 2.5 2.5 0 0 1 5 0ZM10 12a5.99 5.99 0 0 0-4.793 2.39A6.483 6.483 0 0 0 10 16.5a6.483 6.483 0 0 0 4.793-2.11A5.99 5.99 0 0 0 10 12Z"
+                                    clip-rule="evenodd"
+                                />
+                            </svg>
+                            <p
+                                class="text-neutral-600 hover:text-neutral-800 text-md"
+                            >
+                                Profil
+                            </p>
+                        </a>
+                        <!-- Add more menu items as needed -->
+                    </div>
+                </div>
+                <!-- Atasan -->
+                <!-- bawahan -->
+                <a
+                    class="bg-danger-main rounded-lg hover:bg-danger-hover cursor-pointer text-center px-3 py-2 text-white"
+                    >Keluar</a
+                >
+            </div>
+
+            <!-- Hamburger Menu -->
+            <nav
+                class="bg-primary-600 p-4 flex justify-between items-center md:hidden"
+            >
+                <a href="#" class="text-white font-bold text-lg">BayiQ</a>
+                <button id="hamburger" class="text-white focus:outline-none">
+                    <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        fill="none"
+                        viewBox="0 0 24 24"
+                        stroke="currentColor"
+                        class="w-8 h-8"
+                    >
+                        <path
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                            stroke-width="2"
+                            d="M4 6h16M4 12h16m-7 6h7"
+                        />
+                    </svg>
+                </button>
+            </nav>
+            <!-- Nav, responsive -->
+
+            <!-- MAIN -->
+            <main
+                class="flex flex-col gap-4 mx-auto bg-neutral-100 w-full p-6 md:p-8 overflow-y-auto"
+            >
+                <!-- greetings -->
+                <div class="bg-white flex flex-col gap-4 px-6 py-4 rounded-xl">
+                    <div class="grid gap-1">
+                        <h1 class="text-2xl font-bold text-neutral-800">
+                            Profil
+                        </h1>
+                        <!-- halaman profil -->
+                    </div>
+                </div>
+                <div class="flex flex-col md:flex-row gap-4">
+                    <!-- edit profile -->
+                    <div
+                        class="bg-white flex flex-col gap-4 px-6 py-4 rounded-xl max-w-sm"
+                    >
+                        <!-- Gambar profil -->
+                        <div class="w-72 mx-auto">
+                            <img
+                                src="./../assets/image/image2.jpg"
+                                class="w-72 h-72 object-cover object-center rounded-full"
+                                alt=""
+                            />
+                        </div>
+                        <!-- Informasi profil -->
+                        <div class="flex flex-col gap-2">
+                            <p class="text-xl font-bold">
+                                Stevanus Loveniko Putra Sinory Putra Sinory
+                            </p>
+                            <div class="flex gap-2">
+                                <p class="text-gray-500">@username</p>
+                                <p class="text-gray-500">·</p>
+                                <p class="text-gray-500">He/Him</p>
+                            </div>
+                            <p class="text-gray-500">
+                                Tanggal Lahir: 1 Januari 2000
+                            </p>
+                            <p class="text-gray-500">No HP: 081234567890</p>
+                            <!-- Tombol Edit -->
+                            <a
+                                class="text-center mt-4 bg-primary-500 hover:bg-primary-600 text-white py-2 px-4 rounded-md"
+                            >
+                                Edit Profil
+                            </a>
+                        </div>
+                    </div>
+                    <div
+                        class="bg-white flex flex-col gap-4 px-6 py-4 rounded-xl h-fit w-full"
+                    >
+                        <h1
+                            class="text-lg font-semibold text-neutral-600 border-b pb-1 border-neutral-300"
+                        >
+                            Pemesanan Sesi Konsultasi
+                        </h1>
+                        <p class="text-sm text-neutral-600">
+                            Anda tidak memiliki Pemesanan layanan konsultasi
+                            yang sedang berlangsung
+                        </p>
+                    </div>
+                </div>
+            </main>
+        </div>
+
+        <!-- JS -->
+        <!-- JavaScript for Toggle Sidebar -->
+        <script>
+            const sidebar = document.getElementById("sidebar");
+            const hamburger = document.getElementById("hamburger");
+            hamburger.addEventListener("click", () => {
+                sidebar.classList.toggle("-translate-x-full");
+            });
+        </script>
+    </body>
+</html>
