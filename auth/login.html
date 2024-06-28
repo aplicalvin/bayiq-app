@@ -1,0 +1,92 @@
+<!-- This is for Landing Pages -->
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>BayiQ - Karena punya anak itu perlu persiapan</title>
+        <link
+            rel="shortcut icon"
+            href="./../assets/favicon.png"
+            type="image/x-icon"
+        />
+        <!-- css -->
+        <link href="./../src/output.css" rel="stylesheet" />
+        <link href="./../src/suplement.css" rel="stylesheet" />
+    </head>
+    <body class="flex h-screen bg-primary-100">
+        <div class="h-screen w-full bg-neutral-500/50">
+            <div
+                class="flex h-screen w-full bg-repeat bg-[url('./../assets/image/pattern-1.png')] justify-center"
+            >
+                <!-- putih ditengah -->
+                <div
+                    class="max-w-md w-full bg-white md:h-[480px] md:rounded-2xl overflow-hidden my-auto px-6 py-4"
+                >
+                    <!-- Navbar -->
+                    <nav class="flex justify-center px-6 py-4 items-center">
+                        <a href="#">
+                            <img
+                                src="./../assets/logo.png"
+                                class="w-32"
+                                alt=""
+                            />
+                        </a>
+                    </nav>
+                    <!-- Ini bagian main -->
+                    <main class="flex flex-col gap-2 max-w-7xl mx-auto h-full">
+                        <div class="grid gap-1">
+                            <h1 class="text-xl font-semibold">
+                                Selamat Datang,
+                            </h1>
+                            <h2 class="text-md font-thin text-neutral-700">
+                                Masuk untuk mengakses aplikasi
+                            </h2>
+                        </div>
+                        <form action="" class="flex flex-col h-full">
+                            <div class="flex flex-col justify-between gap-8">
+                                <div class="grid gap-1">
+                                    <div class="grid gap-2">
+                                        <label
+                                            for="username"
+                                            class="text-base text-neutral-700"
+                                            >Username</label
+                                        >
+                                        <input
+                                            type="text"
+                                            name="username"
+                                            class="border bg-neutral-100 border-neutral-400 px-3 py-2 rounded-lg"
+                                            id=""
+                                            placeholder="Masukkan username anda!"
+                                        />
+                                    </div>
+                                    <div class="grid gap-2">
+                                        <label
+                                            for="password"
+                                            class="text-base text-neutral-700"
+                                            >password</label
+                                        >
+                                        <input
+                                            type="password"
+                                            name="password"
+                                            class="border bg-neutral-100 border-neutral-400 px-3 py-2 rounded-lg"
+                                            placeholder="Masukkan kata sandi anda!"
+                                            id=""
+                                        />
+                                    </div>
+                                </div>
+                                <button
+                                    type="submit"
+                                    class="text-white font-semibold hover:bg-primary-800 bg-primary-700 px-3 py-2 rounded-lg"
+                                >
+                                    Masuk
+                                </button>
+                            </div>
+                        </form>
+                    </main>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
